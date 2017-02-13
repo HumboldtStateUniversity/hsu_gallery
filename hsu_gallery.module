@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Code for the HSU Gallery feature.
+ */
+
+include_once 'hsu_gallery.features.inc';
+
+/**
+ * Implements hook_init().
+ */
+function hsu_gallery_init() {
+  drupal_add_css(drupal_get_path('module', 'hsu_gallery') . '/hsu_gallery.css');
+}
